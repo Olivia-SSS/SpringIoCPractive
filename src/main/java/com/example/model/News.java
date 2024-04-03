@@ -3,7 +3,7 @@ package com.example.model;
 import java.util.List;
 
 public class News {
-    private String theme; // New field for theme
+    private String theme;
     private List<Press> pressReleases;
 
     public News(List<Press> pressReleases) {
